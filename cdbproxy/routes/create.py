@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify, request, abort
-from proxclopse.common.constants import BASE_URI
+from cdbproxy.common.constants import BASE_URI
 
 """
 Create blueprint route.
@@ -7,7 +7,7 @@ Create blueprint route.
 create_route = Blueprint('create', __name__)
 
 """
-Create a proxclopse instance.
+Create a cdbproxy instance.
 Example HTTP message:
 PUT /v1/create HTTP/1.1
 """

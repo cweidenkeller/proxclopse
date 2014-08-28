@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify, request, abort
-from proxclopse.common.constants import BASE_URI
+from cdbproxy.common.constants import BASE_URI
 
 """
 Update acl blueprint route.
@@ -7,7 +7,7 @@ Update acl blueprint route.
 set_acl_route = Blueprint('set_acl', __name__)
 
 """
-Update acl's on a proxclopse instance.
+Update acl's on a cdbproxy instance.
 Example HTTP message:
 PUT /v1/create HTTP/1.1
 """

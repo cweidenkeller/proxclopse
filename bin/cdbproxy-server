@@ -1,0 +1,4 @@
+#!/usr/bin/env python
+
+from cdbproxy.run import run
+run()

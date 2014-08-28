@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify, request, abort
-from proxclopse.common.constants import BASE_URI
+from cdbproxy.common.constants import BASE_URI
 
 """
 List blueprint route.
@@ -7,7 +7,7 @@ List blueprint route.
 list_route = Blueprint('list', __name__)
 
 """
-List all proxclopse instances.
+List all cdbproxy instances.
 Example HTTP message:
 GET /v1/list HTTP/1.1
 """

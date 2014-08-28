@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify, request, abort
-from proxclopse.common.constants import BASE_URI
+from cdbproxy.common.constants import BASE_URI
 
 """
 Delete blueprint route.
@@ -7,7 +7,7 @@ Delete blueprint route.
 delete_route = Blueprint('delete', __name__)
 
 """
-Create a proxclopse instance.
+Create a cdbproxy instance.
 Example HTTP message:
 DELETE /v1/<instance_id> HTTP/1.1
 """

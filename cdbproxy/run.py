@@ -1,11 +1,11 @@
 from flask import Flask
-from proxclopse.routes.create import create_route
-from proxclopse.routes.delete import delete_route
-from proxclopse.routes.get import get_route
-from proxclopse.routes.list import list_route
-from proxclopse.routes.failover import failover_route
-from proxclopse.routes.modify import modify_route
-from proxclopse.routes.set_acl import set_acl_route
+from cdbproxy.routes.create import create_route
+from cdbproxy.routes.delete import delete_route
+from cdbproxy.routes.get import get_route
+from cdbproxy.routes.list import list_route
+from cdbproxy.routes.failover import failover_route
+from cdbproxy.routes.modify import modify_route
+from cdbproxy.routes.set_acl import set_acl_route
 app = Flask(__name__)
 app.register_blueprint(create_route)
 app.register_blueprint(delete_route)
